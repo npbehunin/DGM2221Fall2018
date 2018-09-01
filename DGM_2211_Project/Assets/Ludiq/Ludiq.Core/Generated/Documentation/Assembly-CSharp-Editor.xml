@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assembly-CSharp-Editor</name>
+    </assembly>
+    <members>
+        <member name="T:ProBuilder2.EditorCommon.pb_AboutWindowSetup">
+             INSTRUCTIONS
+            
+              - Only modify properties in the USER SETTINGS region.
+            	- All content is loaded from external files (pc_AboutEntry_YourProduct.  Use the templates!
+            Used to pop up the window on import.
+        </member>
+        <member name="T:ProBuilder2.EditorCommon.pb_AboutWindow">
+             Changelog.txt file should follow this format:
+            
+            	| # Product Name 2.1.0
+            	|
+            	| ## Features
+            	|
+            	| - All kinds of awesome stuff
+            	| - New flux capacitor design achieves time travel at lower velocities.
+            	| - Dark matter reactor recalibrated.
+            	|
+            	| ## Bug Fixes
+            	|
+            	| - No longer explodes when spacebar is pressed.
+            	| - Fix rolling issue in rickmeter.
+            	|
+            	| # Changes
+            	|
+            	| - Changed Blue to Red.
+            	| - Enter key now causes explosions.
+            
+             This path is relative to the PRODUCT_ROOT path.
+            
+             Note that your changelog may contain multiple entries.  Only the top-most
+             entry will be displayed.
+        </member>
+        <member name="M:ProBuilder2.EditorCommon.pb_AboutWindow.Init(System.Boolean)">
+            Return true if Init took place, false if not.
+        </member>
+        <member name="M:ProBuilder2.EditorCommon.pb_AboutWindow.HorizontalLine">
+            Draw a horizontal line across the screen and update the guilayout.
+        </member>
+        <member name="T:ProBuilder2.EditorCommon.pb_UpdateCheck">
+            Check for updates to ProBuilder.
+        </member>
+        <member name="M:ProBuilder2.EditorCommon.pb_VersionInfo.FromString(System.String)">
+            Create a pb_VersionInfo type from a string.
+            Ex: "2.5.3b1"
+        </member>
+        <member name="T:ProBuilder2.EditorCommon.pb_AboutEntry">
+            Contains information that the pb_AboutEntry.txt file holds.
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:ProBuilder2.EditorCommon.pb_VersionUtil" -->
+        <member name="M:ProBuilder2.EditorCommon.pb_VersionUtil.GetAboutEntry(ProBuilder2.EditorCommon.pb_AboutEntry@)">
+            Get information from the currently installed ProBuilder version.
+        </member>
+        <member name="M:ProBuilder2.EditorCommon.pb_VersionUtil.FormatChangelog(System.String,ProBuilder2.EditorCommon.pb_VersionInfo@,System.String@)">
+            Extracts and formats the latest changelog entry into rich text.  Also grabs the version.
+        </member>
+        <member name="T:ProBuilder2.EditorCommon.pb_MissingScriptEditor">
+            Extends MonoBehaviour Inspector, automatically fixing missing script
+            references (typically caused by ProBuilder upgrade process).
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:ProBuilder2.EditorCommon.pb_MissingScriptEditor.index" -->
+        <!-- Badly formed XML comment ignored for member "F:ProBuilder2.EditorCommon.pb_MissingScriptEditor.total" -->
+        <!-- Badly formed XML comment ignored for member "F:ProBuilder2.EditorCommon.pb_MissingScriptEditor.doFix" -->
+        <!-- Badly formed XML comment ignored for member "F:ProBuilder2.EditorCommon.pb_MissingScriptEditor.unfixable" -->
+        <!-- Badly formed XML comment ignored for member "F:ProBuilder2.EditorCommon.pb_MissingScriptEditor._mono_pb" -->
+        <!-- Badly formed XML comment ignored for member "F:ProBuilder2.EditorCommon.pb_MissingScriptEditor._mono_pe" -->
+        <!-- Badly formed XML comment ignored for member "F:ProBuilder2.EditorCommon.pb_MissingScriptEditor._mono_dummy" -->
+        <!-- Badly formed XML comment ignored for member "M:ProBuilder2.EditorCommon.pb_MissingScriptEditor.LoadMonoScript" -->
+        <member name="M:ProBuilder2.EditorCommon.pb_MissingScriptEditor.Next">
+            Advance to the next gameobject with missing components.  If none are found, display dialog and exit.
+        </member>
+        <member name="F:ProBuilder2.EditorCommon.pb_MissingScriptEditor.PB_OBJECT_SCRIPT_PROPERTIES">
+            SerializedProperty names found in pb_Entity.
+        </member>
+        <member name="F:ProBuilder2.EditorCommon.pb_MissingScriptEditor.PB_ENTITY_SCRIPT_PROPERTIES">
+            SerializedProperty names found in pb_Object.
+        </member>
+        <member name="M:ProBuilder2.EditorCommon.pb_MissingScriptEditor.DeleteDummyScripts">
+            Scan the scene for gameObjects referencing `pb_DummyScript` and delete them.
+        </member>
+        <member name="M:ProBuilder2.EditorCommon.pb_MissingScriptEditor.SerializedObjectToString(UnityEditor.SerializedObject)">
+            Returns a formatted string with all properties in serialized object.
+        </member>
+        <member name="M:ProBuilder2.EditorCommon.pb_MissingScriptEditor.SerializedPropertyValue(UnityEditor.SerializedProperty)">
+            Return a string from the value of a SerializedProperty.
+        </member>
+        <member name="T:ProBuilder2.EditorCommon.pb_ScenePostProcessor">
+            When building the project, remove all references to pb_Objects.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_ExportObj">
+            Deprecated - see MenuActions/Export/ExportObj.cs
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_MakeMeshAsset">
+            See MenuActions/Export/ExportAsset.cs
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_ProBuilderize">
+             Menu interface for pb_ProBuilderize functions.
+            
+             Deprecated as of 2.6.1.
+             This file remains only for backwards compatibility; you may
+             safely delete it.  
+            	
+             See also: ProBuilder2.Actions.ProBuilderize.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_BridgeEdges">
+             Menu interface for Bridge edges functions.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_ConformNormals">
+             Menu interface for 'Conform Normals' action.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_ConnectEdges">
+            Deprecated as of 2.6.0.
+            This file remains only for backwards compatibility; you may
+            safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_DetachDeleteFace">
+             Menu interface for deleting and detaching faces.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_ExtrudeElement">
+             Menu interface for extruding elements.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_FlipEdge">
+             Menu interface for flip edges actions.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_FlipNormals">
+             Menu interface for flip normals actions.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_FreezeTransform">
+             Set the pivot point of a pb_Object mesh to 0,0,0 while retaining current world space.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_MergeFaces">
+             Merge 2 or more faces into a single face.  Merged face
+             retains the properties of the first selected face in the
+             event of conflicts.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_SetPivot">
+            Deprecated as of 2.6.0.
+            This file remains only for backwards compatibility; you may
+            safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_Triangulate">
+             Triangulates a ProBuilder object.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_VertexMergeWeld">
+             Menu interface for vertex merge / weld functions.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_ForceSceneRefresh">
+            Menu interface for manually re-generating all ProBuilder geometry in scene.
+        </member>
+        <member name="M:ProBuilder2.Actions.pb_ForceSceneRefresh.ForceRefresh(System.Boolean)">
+            \brief Force refreshes all meshes in scene.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_RebuildMeshes">
+            Menu interface for manually regenerating all ProBuilder mesh references in scene.
+        </member>
+        <member name="M:ProBuilder2.Actions.pb_RebuildMeshes.StripAndProBuilderize(pb_Object[],System.Boolean)">
+            \brief Rebuild targets if they can't be refreshed.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_RebuildSharedIndices">
+            Menu interface for manually regenerating all ProBuilder shared indices caches in selection.
+        </member>
+        <member name="M:ProBuilder2.Actions.pb_RebuildSharedIndices.RebuildSharedIndices(pb_Object[],System.Boolean)">
+            \brief Rebuild targets if they can't be refreshed.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_RemoveDegenerateTris">
+            Menu interface for removing degerate triangles.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_RepairColors">
+            Menu interface for replacing vertex colors on broken objces.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_RepairMeshReferences">
+            File stub retained for backwards compatibility.
+            You may safely delete this file.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_RepairUV">
+            File stub retained for backwards compatibility.
+            You may safely delete this file.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_ResetEntityMaterials">
+            Menu interface for resetting the materials associated with special entity types.
+        </member>
+        <member name="M:ProBuilder2.Actions.pb_ResetEntityMaterials.RepairEntityMaterials">
+            \brief Force refreshes all meshes in scene.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_UpgradeBasicToAdvanced">
+            Menu interface for applying materials to pb_Object after upgrading from Basic to Advanced.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_EdgeSelection">
+            Deprecated as of 2.6.0.
+            This file remains only for backwards compatibility; you may
+            safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_ExpandSelection">
+             Menu interface for 'Grow Selection' and 'Shrink Selection'
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_InvertSelection">
+             Menu interface for inverting the current element selection.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_MaterialSelection">
+             Menu actions for selecting faces with a material or vertex color.
+            
+             Deprecated as of 2.6.0.
+             This file remains only for backwards compatibility; you may
+             safely delete it.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_MaterialSelectionShortcut">
+            Moved to pb_MenuAction implementation.
+        </member>
+        <member name="T:ProBuilder2.Actions.pb_ProBuilderMenuItems">
+            Deprecated as of 2.6.0.
+            This file remains only for backwards compatibility; you may
+            safely delete it.	 
+        </member>
+    </members>
+</doc>

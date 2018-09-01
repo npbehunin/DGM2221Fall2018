@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assembly-CSharp</name>
+    </assembly>
+    <members>
+        <member name="T:ProBuilder2.Examples.IcoBumpin.FaceRef">
+            Holds a pb_Face, the normal of that face, and the index of every vertex that touches it (sharedIndices).
+        </member>
+        <member name="M:ProBuilder2.Examples.IcoBumpin.Start">
+            Creates the icosphere, and loads all the cache information.
+        </member>
+        <member name="M:ProBuilder2.Examples.IcoBumpin.RMS(System.Single[])">
+            Root mean square is a good approximation of perceived loudness.
+        </member>
+        <member name="T:ProBuilder2.Examples.HueCube">
+            Creates a cube on start and colors it's vertices programmitically.
+        </member>
+        <member name="M:ProBuilder2.Examples.HueCube.HSVtoRGB(System.Single,System.Single,System.Single)">
+             Convert HSV to RGB.
+              http://www.cs.rit.edu/~ncs/color/t_convert.html
+            	r,g,b values are from 0 to 1
+            	h = [0,360], s = [0,1], v = [0,1]
+            	if s == 0, then h = -1 (undefined)
+        </member>
+        <member name="T:ProBuilder2.Examples.RuntimeEdit">
+            \brief This class allows the user to select a single face at a time and move it forwards or backwards.
+            More advanced usage of the ProBuilder API should make use of the pb_Object->SelectedFaces list to keep
+            track of the selected faces.
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:ProBuilder2.Examples.RuntimeEdit.pb_Selection.face" -->
+        <!-- Badly formed XML comment ignored for member "M:ProBuilder2.Examples.RuntimeEdit.pb_Selection.#ctor(pb_Object,ProBuilder2.Common.pb_Face)" -->
+        <member name="M:ProBuilder2.Examples.RuntimeEdit.Awake">
+            \brief Wake up!
+        </member>
+        <member name="M:ProBuilder2.Examples.RuntimeEdit.OnGUI">
+            \brief This is the usual Unity OnGUI method.  We only use it to show a 'Reset' button.
+        </member>
+        <member name="M:ProBuilder2.Examples.RuntimeEdit.SpawnCube">
+            \brief Creates a new ProBuilder cube and sets it up with a concave MeshCollider.
+        </member>
+        <member name="M:ProBuilder2.Examples.RuntimeEdit.LateUpdate">
+            \brief This is responsible for moving the camera around and not much else.
+        </member>
+        <member name="M:ProBuilder2.Examples.RuntimeEdit.Update">
+            \brief The 'meat' of the operation.  This listens for a click event, then checks for a positive
+            face selection.  If the click has hit a pb_Object, select it.
+        </member>
+        <member name="M:ProBuilder2.Examples.RuntimeEdit.FaceCheck(UnityEngine.Vector3)">
+            \brief This is how we figure out what face is clicked.
+        </member>
+        <member name="T:ExtrudeRandomEdges">
+            Do a snake-like thing with a quad and some extrudes.
+        </member>
+        <member name="M:ExtrudeRandomEdges.Start">
+            Build a starting point (in this case, a quad)
+        </member>
+        <member name="T:HighlightNearestFace">
+            	Move a sphere around the surface of a ProBuilder mesh, changing the
+            	vertex color of the nearest face.
+            
+            	Scene setup:  Create a Unity Sphere primitive in a new scene, then attach
+            	this script to the sphere.  Press 'Play'
+        </member>
+        <member name="M:HighlightNearestFace.FaceCenter(pb_Object,ProBuilder2.Common.pb_Face)">
+            Returns the average of each vertex position in a face.
+            In local space.
+        </member>
+    </members>
+</doc>
