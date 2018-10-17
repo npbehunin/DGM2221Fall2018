@@ -9,6 +9,7 @@ TagManager:
   - MovingPlatformPoint
   - EnemyCheckpoint
   - EnemyPatrol
+  - Bullet
   layers:
   - Default
   - TransparentFX
