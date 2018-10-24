@@ -11,6 +11,7 @@ TagManager:
   - EnemyPatrol
   - Bullet
   - Platforms
+  - Enemy
   layers:
   - Default
   - TransparentFX
