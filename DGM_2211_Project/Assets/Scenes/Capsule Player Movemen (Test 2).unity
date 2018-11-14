@@ -23342,7 +23342,7 @@ Transform:
   m_GameObject: {fileID: 1057876817}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.14149761, y: -2.628117, z: 0.8642354}
-  m_LocalScale: {x: 11.478261, y: 4.814738, z: 3.6640348}
+  m_LocalScale: {x: 11.478261, y: 4.814738, z: 3.6640356}
   m_Children: []
   m_Father: {fileID: 646222979}
   m_RootOrder: 2
@@ -24449,7 +24449,7 @@ Prefab:
     - target: {fileID: 114715270707653508, guid: bf4eeed174eeb774cab18092c310be9f,
         type: 2}
       propertyPath: _data._objectReferences.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4722528642331726, guid: bf4eeed174eeb774cab18092c310be9f, type: 2}
       propertyPath: m_LocalPosition.x
@@ -24486,7 +24486,7 @@ Prefab:
     - target: {fileID: 114715270707653508, guid: bf4eeed174eeb774cab18092c310be9f,
         type: 2}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"PatrolCheckpoint","value":{"$content":0,"$type":"UnityEngine.GameObject"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 114715270707653508, guid: bf4eeed174eeb774cab18092c310be9f,
         type: 2}
@@ -24495,15 +24495,15 @@ Prefab:
       objectReference: {fileID: 1904905171}
     - target: {fileID: 4722528642331726, guid: bf4eeed174eeb774cab18092c310be9f, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.8206366
+      value: 0.8206364
       objectReference: {fileID: 0}
     - target: {fileID: 4722528642331726, guid: bf4eeed174eeb774cab18092c310be9f, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.8206366
+      value: 0.8206365
       objectReference: {fileID: 0}
     - target: {fileID: 4722528642331726, guid: bf4eeed174eeb774cab18092c310be9f, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.8206366
+      value: 0.82063645
       objectReference: {fileID: 0}
     - target: {fileID: 4835517578776808, guid: bf4eeed174eeb774cab18092c310be9f, type: 2}
       propertyPath: m_RootOrder
