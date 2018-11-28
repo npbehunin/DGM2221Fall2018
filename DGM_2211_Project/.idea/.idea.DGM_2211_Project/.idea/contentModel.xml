@@ -98,6 +98,7 @@
         <e p="Macros" t="Include">
           <e p="BreakableObject.cs" t="Include" />
           <e p="BreakCollision.cs" t="Include" />
+          <e p="BulletIgnoreCollision.cs" t="Include" />
         </e>
       </e>
       <e p="DGM_2211_Project.sln" t="IncludeFlat" />

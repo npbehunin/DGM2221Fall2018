@@ -12,6 +12,7 @@ TagManager:
   - Bullet
   - Platforms
   - Enemy
+  - EnemyResetPatrol
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Death
   - Player
   - Enemy
-  - 
+  - Bullet
   - 
   - 
   - 
