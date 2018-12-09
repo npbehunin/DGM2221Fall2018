@@ -14,13 +14,12 @@
       <file leaf-file-name="BreakableObject.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakableObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state>
               <folding>
-                <marker date="1543269935426" expanded="false" signature="6:78" ph="..." />
-                <marker date="1543269935426" expanded="true" signature="124:355" ph="{...}" />
-                <marker date="1543269935426" expanded="true" signature="165:261" ph="{...}" />
-                <marker date="1543269935426" expanded="true" signature="295:353" ph="{...}" />
+                <marker date="1543978965753" expanded="false" signature="6:78" ph="..." />
+                <marker date="1543978965753" expanded="true" signature="124:355" ph="{...}" />
+                <marker date="1543978965753" expanded="true" signature="165:261" ph="{...}" />
+                <marker date="1543978965753" expanded="true" signature="295:353" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -29,26 +28,41 @@
       <file leaf-file-name="BreakCollision.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakCollision.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="330">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding>
-                <marker date="1543271478749" expanded="false" signature="6:78" ph="..." />
-                <marker date="1543271478749" expanded="true" signature="123:941" ph="{...}" />
-                <marker date="1543271478749" expanded="true" signature="506:939" ph="{...}" />
-                <marker date="1543271478749" expanded="true" signature="554:936" ph="{...}" />
+                <marker date="1544293480957" expanded="false" signature="6:78" ph="..." />
+                <marker date="1544293480957" expanded="true" signature="123:974" ph="{...}" />
+                <marker date="1544293480957" expanded="true" signature="509:972" ph="{...}" />
+                <marker date="1544293480957" expanded="true" signature="557:969" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BulletIgnoreCollision.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoalCollision.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Macros/GoalCollision.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding>
+                <marker date="1544295231643" expanded="false" signature="6:78" ph="..." />
+                <marker date="1544295231643" expanded="true" signature="144:424" ph="{...}" />
+                <marker date="1544295231643" expanded="true" signature="246:422" ph="{...}" />
+                <marker date="1544295231643" expanded="true" signature="294:419" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BulletIgnoreCollision.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Macros/BulletIgnoreCollision.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="60">
               <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <marker date="1543447713053" expanded="true" signature="6:78" ph="..." />
-                <marker date="1543447713053" expanded="true" signature="130:134" ph="{...}" />
+                <marker date="1543978965766" expanded="false" signature="6:78" ph="..." />
+                <marker date="1543978965766" expanded="true" signature="130:134" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -60,23 +74,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Macros/BreakCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../DGM2670Fall2018/DGM2670UnityProject/Assets/Creation Platform Game/OnGameStart.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Macros/GoalCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Macros/BreakableObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Macros/BreakCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Macros/BulletIgnoreCollision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../DGM2670Fall2018/DGM2670UnityProject/Assets/Creation Platform Game/OnGameStart.cs" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Macros/BreakableObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Macros/BreakCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Macros/BulletIgnoreCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Macros/BreakCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Macros/GoalCollision.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="311" />
-    <option name="y" value="93" />
+    <option name="x" value="225" />
+    <option name="y" value="71" />
     <option name="width" value="1572" />
     <option name="height" value="966" />
   </component>
@@ -86,7 +102,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -99,10 +118,7 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,85 +155,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="93" width="1572" height="966" extended-state="0" />
+    <frame x="225" y="71" width="1572" height="966" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25330687" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25661376" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakableObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state>
           <folding>
-            <marker date="1543269935426" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543269935426" expanded="true" signature="124:355" ph="{...}" />
-            <marker date="1543269935426" expanded="true" signature="165:261" ph="{...}" />
-            <marker date="1543269935426" expanded="true" signature="295:353" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakCollision.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <marker date="1543271478749" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543271478749" expanded="true" signature="123:941" ph="{...}" />
-            <marker date="1543271478749" expanded="true" signature="506:939" ph="{...}" />
-            <marker date="1543271478749" expanded="true" signature="554:936" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakableObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <marker date="1543269935426" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543269935426" expanded="true" signature="124:355" ph="{...}" />
-            <marker date="1543269935426" expanded="true" signature="165:261" ph="{...}" />
-            <marker date="1543269935426" expanded="true" signature="295:353" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakCollision.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <marker date="1543271478749" expanded="false" signature="6:78" ph="..." />
-            <marker date="1543271478749" expanded="true" signature="123:941" ph="{...}" />
-            <marker date="1543271478749" expanded="true" signature="506:939" ph="{...}" />
-            <marker date="1543271478749" expanded="true" signature="554:936" ph="{...}" />
+            <marker date="1543978965753" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543978965753" expanded="true" signature="124:355" ph="{...}" />
+            <marker date="1543978965753" expanded="true" signature="165:261" ph="{...}" />
+            <marker date="1543978965753" expanded="true" signature="295:353" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -227,8 +205,96 @@
         <state relative-caret-position="90">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
-            <marker date="1543447713053" expanded="true" signature="6:78" ph="..." />
-            <marker date="1543447713053" expanded="true" signature="130:134" ph="{...}" />
+            <marker date="1543978965766" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543978965766" expanded="true" signature="130:134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <marker date="1544293480957" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544293480957" expanded="true" signature="123:974" ph="{...}" />
+            <marker date="1544293480957" expanded="true" signature="509:972" ph="{...}" />
+            <marker date="1544293480957" expanded="true" signature="557:969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakableObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <marker date="1543978965753" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543978965753" expanded="true" signature="124:355" ph="{...}" />
+            <marker date="1543978965753" expanded="true" signature="165:261" ph="{...}" />
+            <marker date="1543978965753" expanded="true" signature="295:353" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <marker date="1544293480957" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544293480957" expanded="true" signature="123:974" ph="{...}" />
+            <marker date="1544293480957" expanded="true" signature="509:972" ph="{...}" />
+            <marker date="1544293480957" expanded="true" signature="557:969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Macros/BulletIgnoreCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1543978965766" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543978965766" expanded="true" signature="130:134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakableObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1543978965753" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543978965753" expanded="true" signature="124:355" ph="{...}" />
+            <marker date="1543978965753" expanded="true" signature="165:261" ph="{...}" />
+            <marker date="1543978965753" expanded="true" signature="295:353" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Macros/BreakCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <marker date="1544293480957" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544293480957" expanded="true" signature="123:974" ph="{...}" />
+            <marker date="1544293480957" expanded="true" signature="509:972" ph="{...}" />
+            <marker date="1544293480957" expanded="true" signature="557:969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Macros/GoalCollision.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <marker date="1544295231643" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544295231643" expanded="true" signature="144:424" ph="{...}" />
+            <marker date="1544295231643" expanded="true" signature="246:422" ph="{...}" />
+            <marker date="1544295231643" expanded="true" signature="294:419" ph="{...}" />
           </folding>
         </state>
       </provider>

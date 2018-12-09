@@ -14,7 +14,7 @@ public class BreakCollision : MonoBehaviour
 	public BreakableObject breakobject8;
 	public BreakableObject breakobject9;
 	
-	void OnTriggerEnter(Collider other)
+	void OnCollisionEnter(Collision other)
 	{
 		if (other.gameObject.CompareTag("Bullet"))
 		{
@@ -29,6 +29,7 @@ public class BreakCollision : MonoBehaviour
 			breakobject8.EnableKinematic();
 			breakobject9.EnableKinematic();
 			Destroy(gameObject);
+			Destroy(other.gameObject);
 		}
 	}
 }

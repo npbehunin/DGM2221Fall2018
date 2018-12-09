@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10672633\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_DGM_2211_Project.365994191.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10672633\Documents\Gitkraken\npbehunin\DGM2221Fall2018\DGM_2211_Project" t="IncludeRecursive">
+    <e p="C:\Users\npbeh\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_DGM_2211_Project.1076414803.00" t="ExcludeRecursive" />
+    <e p="C:\Users\npbeh\Documents\UVU\Fall 2018\DGM2221Fall2018\DGM_2211_Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Ludiq" t="Include">
@@ -99,6 +99,7 @@
           <e p="BreakableObject.cs" t="Include" />
           <e p="BreakCollision.cs" t="Include" />
           <e p="BulletIgnoreCollision.cs" t="Include" />
+          <e p="GoalCollision.cs" t="Include" />
         </e>
       </e>
       <e p="DGM_2211_Project.sln" t="IncludeFlat" />
